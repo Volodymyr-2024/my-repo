@@ -1,0 +1,876 @@
+    1  ls
+    2  ls -a
+    3  ls --help
+    4  cat --help
+    5  help
+    6  --help
+    7  -help
+    8  help
+    9  man ls
+   10  curl cheat.sh/cat
+   11  curl cheat.sh/sudo
+   12  ды
+   13  ls
+   14  cd ..
+   15  cd..
+   16  cd ..
+   17  ..
+   18  cd
+   19  ls
+   20  mkdir -p /home/user/start
+   21  ls
+   22  cd..
+   23  cd ...
+   24  cd
+   25  mkdir -p /home/user/start
+   26  cd /home
+   27  cd user
+   28  cd /user
+   29  ls
+   30  mkdir -p user
+   31  mkdir -p /user
+   32  sudo mkdir -p /user
+   33  ls
+   34  mkdir -p /user/start
+   35  sudo mkdir -p /user
+   36  ls
+   37  sudo mkdir -p /user/start
+   38  ls
+   39  user
+   40  cd /user
+   41  ls
+   42  cd /start
+   43  s
+   44  ls
+   45  echo "Start" > /home/user/start/1.txt
+   46  echo "Start" > /start/1.txt
+   47  touch /start/1.txt
+   48  cd ..
+   49  cd
+   50  ls
+   51  mkdir -p /user/start
+   52  ls
+   53  mkdir -p /home/user/start
+   54  ls
+   55  echo $Home
+   56  echo $HOME
+   57  mkdir -p ~/start
+   58  ls
+   59  echo "Start" >/start/1.txt
+   60  ls
+   61  echo "Start" > ~/start/1.txt
+   62  date >> ~/start/1.txt
+   63  ls
+   64  cd start
+   65  ls
+   66  cd..
+   67  cd ..
+   68  cd
+   69  mkdir -p ~opt/task
+   70  cp ~/start/1.txt ~/opt/task/start.txt
+   71  ls
+   72  mkdir -p opt/task
+   73  cp ~/start/1.txt ~/opt/task/start.txt
+   74  ls -la/ | tail -n 4 | tee -a ~/opt/task/start.txt > /dev/null
+   75  ls -la / | tail -n 4 | tee -a ~/opt/task/start.txt > /dev/null
+   76  ls -la / | tail -4 >> ~/opt/task/start.txt
+   77  vimtutor
+   78  ssh kdgs4uGERAcpMEuBbYPtVGrAM@lon1.tmate.io
+   79  te
+   80  rt
+   81  ssh kdgs4uGERAcpMEuBbYPtVGrAM@lon1.tmate.io
+   82  vi
+   83  nano
+   84  vim
+   85  vi
+   86  df -h
+   87  ls
+   88  df -h | grep dev
+   89  df -h
+   90  df
+   91  man grep
+   92  ls
+   93  cd start
+   94  ls
+   95  cd 
+   96  ls
+   97  cd opt
+   98  ls
+   99  cd start
+  100  ls
+  101  date > newfile.txt
+  102  ls
+  103  df / >> newfile.txt
+  104  history | tail -n 3 >> newfile.txt
+  105  grep cron /etc/passwd >> newfile.txt
+  106  grep root /etc/group | wc -l >> newfile.txt
+  107  vi newfile.txt
+  108  export_file newfile.txt
+  109  ls
+  110  export_file newfile.txt
+  111  cp newfile.txt /mnt/c/Пользователи/Администратор/Рабочий стол
+  112  cp newfile.txt /mnt/с
+  113  cp newfile.txt /c
+  114  list
+  115  ls
+  116  cp newfile.txt /mnt/c
+  117  c:/
+  118  c/
+  119  /c
+  120  pwd
+  121  cd home
+  122  cd /home
+  123  ls
+  124  cd ..
+  125  ls
+  126  cd ..
+  127  ls
+  128  pwd
+  129  cd /c
+  130  cd /c:
+  131  cd ~
+  132  ls
+  133  cd start
+  134  df - h
+  135  ls
+  136  cd start
+  137  ls
+  138  mk 1.txt
+  139  mk /1.txt
+  140  ls
+  141  rm 1.txt
+  142  ls
+  143  date >> file.txt
+  144  df -h | grep -w / >> file.txt
+  145  history | tail -5 >> file.txt
+  146  cat /proc/cpuinfo | grep vendor >> file.txt
+  147  vi file.txt
+  148  ls
+  149  rmfile.txt
+  150  rm file.txt
+  151  ls
+  152  cd ..
+  153  ls
+  154  /
+  155  cd 
+  156  cd /
+  157  ls
+  158  pwd
+  159  cd tmp
+  160  ls
+  161  cd /
+  162  ls
+  163  cs startcs start\1
+  164  cs start
+  165  cs /start
+  166  cd start
+  167  ls
+  168  rm newfile.txt
+  169  ls
+  170  exit
+  171  cd /
+  172  ls
+  173  date >> /tmp/file.txt
+  174  df -h | grep -w / >> /tmp/file.txt
+  175  history | tail -n 3 >> /tmp/file.txt
+  176  grep cron /etc/passwd >> /tmp/file.txt
+  177  grep -c root /etc/group >> /tmp/file.txt
+  178  vim /tmp/file.txt
+  179  export_file /c
+  180  export_file :/c
+  181  export_file /tmp/file.txt
+  182  export_file /c /tmp/file.txt
+  183  export_file /tmp/file.txt /c
+  184  export_file /tmp/file.txt :/c
+  185  export_file /tmp/file.txt 
+  186  export_file /tmp/history.txt 
+  187  grep 'cron' /etc/passwd >> /tmp/file.txt
+  188  exit
+  189  ssh-keygen
+  190  ssh-keygen -c itspec.ua@gmail.com
+  191  ssh-keygen -C itspec.ua@gmail.com
+  192  clip < ~/.ssh/id_rsa.pub
+  193  cd .ssh
+  194  ls
+  195  clip < ~/.ssh/id_rsa.pub
+  196  clip < id_rsa.pub
+  197  ls
+  198  clip < id_ed25519.pub
+  199  cat id_ed25519.pub
+  200  ssh ec2-user@linux.itcareerhub.de
+  201  ssh-i ~/.ssh/id_rsa ec2-user@linux.itcareerhub.de
+  202  ssh -i ~/.ssh/id_rsa ec2-user@linux.itcareerhub.de
+  203  ls
+  204  ssh -i ec2-user@linux.itcareerhub.de
+  205  ssh ec2-user@linux.itcareerhub.de
+  206  exit
+  207  top
+  208  ps
+  209  ps -e
+  210  top
+  211  df -h
+  212  free -h
+  213  ssh ec2@linux.itcareerhub.de
+  214  ssh ec2-user@linux.itcareerhub.de
+  215  exit
+  216  cd
+  217  ls
+  218  ls -h
+  219  ls -a
+  220  cd ssh
+  221  cd /ssh
+  222  cd ./ssh
+  223  ls -a
+  224  cd .ssh
+  225  ls
+  226  cat id_ed255519
+  227  cat id_ed25519
+  228  cat id_ув25519юзги
+  229  cat id_ed25519.pub
+  230  path
+  231  path:
+  232  path id_ed25519.pub
+  233  path: id_ed25519.pub
+  234  echo $path
+  235  cd ..
+  236  echo $path
+  237  top
+  238  ps
+  239  kill bash
+  240  ps
+  241  kill top
+  242  df
+  243  free
+  244  env
+  245  path ?
+  246  env
+  247  echo $PATH
+  248  echo PATH
+  249  PS1='\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
+  250  PS1='\d \t \u@\h:\w\$ '
+  251  PS1='\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
+  252  ssh ec2-user/linux.itcareerhub.de
+  253  ssh ec2-user@linux.itcareerhub.de
+  254  exit
+  255  ssh ec2-user@linux.itcareerhub.de
+  256  clear
+  257  ssh ec2-user@linux.itcareerhub.de
+  258  env
+  259  ssh ec2-user@linux.itcareerhub.de
+  260  scp ec2-user@linux.itcareerhub.de:'/opt/100624-wdm/Viktar/test.txt' ./
+  261  scp ec2-user@linux.itcareerhub.de:'/opt/100624-wdm/Volodumyr/.process_management' C:/
+  262  cd ..
+  263  cd media
+  264  ls
+  265  ls -la
+  266  cd ../mmt
+  267  cd ..
+  268  cd ../mnt
+  269  ls
+  270  cd c
+  271  ls
+  272  scp ec2-user@linux.itcareerhub.de:'/opt/100624-wdm/Volodymyr/.process_management' /mnt/c
+  273  ls
+  274  ls -la
+  275  cd ..
+  276  ls
+  277  cd ~
+  278  ls
+  279  cd opt
+  280  ls
+  281  ls -a
+  282  cd ..
+  283  cd /
+  284  ls
+  285  cd mnt
+  286  ls
+  287  cd c
+  288  ls
+  289  ls -a
+  290  ls -la
+  291  clear
+  292  cd ..
+  293  ls
+  294  cd `
+  295  x
+  296  cd ~
+  297  ls
+  298  cd opt
+  299  ls
+  300  cd ~
+  301  ssh ec2-user@linux.itcareerhub.de
+  302  scp ec2-user@linux.itcareerhub.de:'/opt/100624-wdm/Volodymyr/.process_management' /mnt/c/
+  303  ls
+  304  cd /
+  305  ls
+  306  cd tmp
+  307  ls
+  308  ls -z 
+  309  ls -a
+  310  cd ..
+  311  ls
+  312  ls -a
+  313  ls -la
+  314  vi /tmp/file.txt
+  315  df -h
+  316  vi /tmp/file.txt
+  317  cd /tmp
+  318  ls
+  319  ls -la
+  320  vi /tmp/file.txt
+  321  ls
+  322  cat file.txt
+  323  chmod 050 file.txt
+  324  ls -la
+  325  ls
+  326  rm .file.txt.swo
+  327  rm .file.txt.swp
+  328  ls
+  329  ls -la
+  330  chmod 000 file.txt
+  331  ls -la
+  332  ls
+  333  chmod 030 file.txt
+  334  ls -la
+  335  df -h | head -n 3
+  336  df -h 
+  337  vi /tmp/file.txt
+  338  ls
+  339  ls -la
+  340  rm .file.txt.swp
+  341  ls -la
+  342  xit
+  343  exit
+  344  exut
+  345  exit
+  346  pwd
+  347  pwd /
+  348  clear
+  349  ssh ec2-user@linux.itcareerhub.de
+  350  scp ec2-user@linux.itcareerhub.de:/tmp/file.txt /mnt/c
+  351  cd mnt
+  352  c d/
+  353  cd /
+  354  cd mnt
+  355  cd c
+  356  file.txt
+  357  vi file.txt
+  358  ls
+  359  ls ßla
+  360  ls -la
+  361  exit
+  362  ls
+  363  ls -la
+  364  cd .ssh
+  365  ls
+  366  cat id_ed25519юзги
+  367  cat id_ed25519.pub
+  368  ды
+  369  ls
+  370  cd known_hosts
+  371  ls
+  372  cd /known_hosts
+  373  cd known_hosts
+  374  ls -la
+  375  cd
+  376  ls
+  377  git --version
+  378  ls
+  379  cd .ssh
+  380  ls
+  381  ls -la
+  382  ls
+  383  cd ..
+  384  ls
+  385  uname
+  386  lsb_release -a
+  387  uname -srm
+  388  mkdir repo
+  389  cd repo
+  390  mkdir test
+  391  cd test
+  392  ls
+  393  ls -la
+  394  echo "# test" >> README.md
+  395  ls
+  396  git init
+  397  cat README.md
+  398  git status
+  399  cd ..
+  400  mv repo Repositories
+  401  cd..
+  402  cd ..
+  403  ls
+  404  mv repo Repositories
+  405  ls
+  406  cd Repositories
+  407  ls
+  408  cd test
+  409  ls
+  410  git status
+  411  git init
+  412  ls
+  413  git add --all
+  414  git status
+  415  git commit -m "Added README.md"
+  416  git config --global user.email "itspec.ua@gmail.com"
+  417  git config --global user.name "Volodymyr-2024"
+  418  git commit -m "Added README.md"
+  419  git config --global -l
+  420  git status
+  421  git commit -m "first commit"
+  422  ls
+  423  git status
+  424  git branch -M main
+  425  git status
+  426  git config --global -l core.editor "vim"
+  427  git config --global core.editor "vim"
+  428  clear
+  429  git config
+  430  git config -l
+  431  clear
+  432  git config -l
+  433  clear
+  434  git config --global -l
+  435  git remote add origin git@github.com:Volodymyr-2024/test.git
+  436  git remote -v
+  437  git status
+  438  git push -u origin main
+  439  git remote -v
+  440  touch test1.txt
+  441  ls
+  442  git status
+  443  git clean -df
+  444  git status
+  445  ls
+  446  git log
+  447  cd ..
+  448  cd..
+  449  cd ..
+  450  ls
+  451  cd Re
+  452  cd Repositories/
+  453  ls
+  454  ls -la
+  455  mkdir git_intro
+  456  cd git_intro/
+  457  ls
+  458  git init
+  459  ls -la
+  460  git add img.jpg
+  461  ls
+  462  git commit -m "Added photo"
+  463  git branch -M main
+  464  git remote add origin git@github.com:Volodymyr-2024/git_intro.git
+  465  git push -u origin main
+  466  exit
+  467  ls 
+  468  ls -ls
+  469  cd Repositories/
+  470  ls
+  471  ls -la
+  472  cd git_intro/
+  473  ls -la
+  474  curl cheat.sh/find
+  475  curl cheat.sh/.map
+  476  curl cheat.sh/js.map
+  477  curl cheat.sh/jmap
+  478  ssh ec2-user@linux.itcareerhub.de
+  479  watch -n 0.1 "cat /proc/cpuinfo
+  480  | grep Mhz"
+  481  watch -n 0.1 "cat /proc/cpuinfo
+  482  | grep Mhz"
+  483  watch -n 0.1 cat /proc/cpuinfo
+  484  ды
+  485  ls
+  486  cd Repositories/
+  487  ls -ls
+  488  ls
+  489  ls -la
+  490  touch myfirstbashscript.sh
+  491  vim myfirstbashscript.sh 
+  492  cat myfirstbashscript.sh 
+  493  ./myfirstbashscript.sh
+  494  chmod +x myfirstbashscript.sh 
+  495  ./myfirstbashscript.sh
+  496  ./myfirstbashscript.sh > result.txt
+  497  ls
+  498  cat result.txt
+  499  фцв
+  500  awd
+  501  pwd
+  502  awk
+  503  exit
+  504  ls
+  505  ls ßla
+  506  ls -la
+  507  cd Repositories/
+  508  ls
+  509  ssh ec2-user@linux.itcareerhub.de
+  510  watch git log --all --decorate --oneline --graph
+  511  ls
+  512  ls -la
+  513  ~
+  514  cd 
+  515  cd /
+  516  ls
+  517  cd mnt
+  518  ls
+  519  cd e:
+  520  cd e
+  521  ls
+  522  cd IT Career Hub
+  523  cd 'IT Career Hub'
+  524  ls
+  525  ls -la
+  526  cd 'Meine Hausaufgaben'
+  527  ls
+  528  git init
+  529  ls -la
+  530  git add .
+  531  git commit -m "Dowload Hausaufgaben"
+  532  git branch -M main
+  533  ls -la
+  534  git remote add origin git@github.com:Volodymyr-2024/Hausaufgabe.git
+  535  git push -u origin main
+  536  ls -la
+  537  git status
+  538  exit
+  539  ls
+  540  cd Repositories/
+  541  ls
+  542  mkdir git-branch
+  543  cd git-branch
+  544  git init
+  545  git checkout -b gitignore
+  546  touch .gitignore
+  547  vim .gitignore
+  548  git commit -m "Добавлено содержание из файла-примера в .gitignore файл"
+  549  git remote add origin git@github.com:Volodymyr-2024/git-branch.git
+  550  git push -u origin gitignore
+  551  git branch -M main
+  552  git push -u origin main
+  553  ды
+  554  ls
+  555  ls -la
+  556  vim .gitignore
+  557  exit
+  558  ls
+  559  cd Repositories/
+  560  ls
+  561  cd git-branch/
+  562  ls
+  563  git remote add origin git@github.com:Volodymyr-2024/git-branch.git
+  564  git push -u origin main
+  565  echo "# git-branch" >> README.md
+  566  git init
+  567  git add README.md
+  568  git branch -M main
+  569  git remote add origin git@github.com:Volodymyr-2024/git-branch.git
+  570  git push -u origin main
+  571  cd ..
+  572  ls
+  573  rm git-branch
+  574  rm -r git-branch
+  575  ls
+  576  rm -r git-branch
+  577  ls
+  578  cd Repositories/
+  579  git branch
+  580  .git branch
+  581  ls
+  582  mkdir giiit
+  583  cd giiit/
+  584  git init
+  585  ls -la
+  586  .git branch
+  587  git branch
+  588  cd ..
+  589  git branch
+  590  pwd
+  591  ls -ls
+  592  ls -la
+  593  cd giiit
+  594  ls -la
+  595  git branch
+  596  cd ..
+  597  ls
+  598  cd git_intro/
+  599  git branch
+  600  c d..
+  601  cd ..
+  602  ls
+  603  cd giiit/
+  604  ls
+  605  ls -a
+  606  git branch
+  607  git status
+  608  git --version
+  609  ssh ec2-user@linux.itcareerhub.de
+  610  exit
+  611  ls
+  612  cd Repositories/
+  613  ls
+  614  mkdir git-branch
+  615  cd git-branch/
+  616  git init
+  617  git checkout -b gitignore
+  618  touch .gitignore
+  619  vim .gitignore
+  620  cat .gitignore
+  621  git commit -m "Добавлен файл .gitignore"
+  622  git remote add origin git@github.com:Volodymyr-2024/git-branch.git
+  623  git push -u origin main
+  624  git push -u origin gitignore
+  625  git branch
+  626  git checkout -b main
+  627  git push -u origin main
+  628  echo "# git-branch" > README.md
+  629  git add README.md
+  630  git commit -m "Initial commit"
+  631  git push -u origin main
+  632  ls
+  633  ls -la
+  634  git add .gitignore
+  635  git commit -m "Add .gitignore file"
+  636  git push
+  637  cd ..
+  638  ls
+  639  rm git-branch
+  640  rm -r git-branch
+  641  ls
+  642  ls -la
+  643  rm giiit
+  644  rm -rf giiit
+  645  ls
+  646  rm -rf git-branch
+  647  ls
+  648  mkdir git-branch
+  649  cd git-branch
+  650  ls
+  651  echo "# git-branch" >> README.md
+  652  ls
+  653  git init
+  654  git add README.md
+  655  git commit -m "Added file README.md"
+  656  git branch -M main
+  657  git checkout -b gitignore
+  658  touch .gitignore
+  659  vim .gitignore 
+  660  git commit -m "Added file .gitignore"
+  661  git remote add origin git@github.com:Volodymyr-2024/git-branch.git
+  662  git push -u origin main
+  663  ls -la
+  664  gir
+  665  git add .gitignore
+  666  git commit -m "Added file .gitignore"
+  667  git push -u origin main
+  668  ls
+  669  ls -la
+  670  git branch
+  671  git status
+  672  ls -la
+  673  git add .gitignore
+  674  git commit -m "Added file .gitignore"
+  675  rm -r .gitignore
+  676  ls -la
+  677  touch .gitignore
+  678  vim .gitignore
+  679  cat .gitignore
+  680  git branch
+  681  git add .gitignore
+  682  git commit -m "Added file .gitignore"
+  683  git log --oneline
+  684  git push origin gitignore
+  685  cd ..
+  686  ls
+  687  rm -r git-branch
+  688  y
+  689  ls
+  690  rm -f git-branch
+  691  ls
+  692  cd git-branch
+  693  ls
+  694  ls -la
+  695  cd ..
+  696  rm if git-branch
+  697  rm -rf git-branch
+  698  ls
+  699  mkdir git-branch
+  700  ls
+  701  cd git-branch/
+  702  ls
+  703  echo "# git-branch" >> README.md
+  704  git init
+  705  git add README.md
+  706  git commit -m "Added file REAME.md"
+  707  git branch -M main
+  708  git remote add origin git@github.com:Volodymyr-2024/git-branch.git
+  709  git push -u origin main
+  710  git checkout -b gitignore
+  711  touch .gitignore
+  712  vim .gitignore
+  713  git add .gitignore
+  714  git commit -m "Add .gitignore file"
+  715  git remote add origin git@github.com:Volodymyr-2024/git-branch.git
+  716  git push -u origin main
+  717  git remote -v
+  718  git remote set-url origin git@github.com:Volodymyr-2024/git-branch.git
+  719  git remote remove origin
+  720  git push -u origin gitignore
+  721  git remote remove origin
+  722  git remote add origin git@github.com:Volodymyr-2024/git-branch.git
+  723  git push -u origin gitignore
+  724  cd ..
+  725  ssh ec2-user@linux.itcareerhub.de
+  726  exit
+  727  ls
+  728  /
+  729  ls
+  730  ls -la
+  731  cd mnt
+  732  ls
+  733  ~
+  734  cd /
+  735  ls
+  736  cd mnt
+  737  ls
+  738  cd c
+  739  ls
+  740  pwd
+  741  cd ..
+  742  pwd
+  743  cd mnt
+  744  cd c
+  745  scp ec2-user@linux.itcareerhub.de:/opt/100624-wdm/Volodymyr/permission_checker.sh /mnt/c
+  746  exit
+  747  cd/
+  748  cd /
+  749  ls
+  750  cd mnt
+  751  ls
+  752  cd e/
+  753  ls
+  754  cd 'IT Career Hub'/
+  755  ls
+  756  cd F
+  757  cd Front-End/
+  758  ls
+  759  git init
+  760  git add -all
+  761  git add --all
+  762  git commit -m "Added all files 14-08-2024"
+  763  git branch -M main
+  764  git remote add origin git@github.com:Volodymyr-2024/front-end.git
+  765  git push -u origin main
+  766  git add --all
+  767  git commit -m "Изменид 14-07-2024"
+  768  git push -u origin main
+  769  git add --all
+  770  git commit -m "Add endet 14-08-2024"
+  771  git push
+  772  cd /
+  773  ls
+  774  cd mnt
+  775  ls
+  776  cd e
+  777  ls
+  778  cd 'IT Career Hub'/
+  779  ls
+  780  cd 'Meine Hausaufgaben'/
+  781  ls
+  782  ls -la
+  783  git add --all
+  784  git commit -m "Add Hausaufgabe 47.2"
+  785  git push
+  786  git add --all
+  787  git commit -m "Add Hausaufgabe 48.2"
+  788  git push
+  789  cd /
+  790  cd mnt
+  791  cd e
+  792  ls
+  793  cd 'IT Career Hub'/
+  794  ls
+  795  cd 'Meine Hausaufgaben'/
+  796  ls
+  797  git add --all
+  798  git commit -m "Add Hausaufgabe 44.2. Реализована функция списка задач. Фильтр по меню - Все, Активные, Выполненные"
+  799  git push
+  800  git status
+  801  git log
+  802  git log --graph --oneline --decorate
+  803  git log --graph
+  804  git log --graph --oneline 
+  805  git log --graph --oneline --decorate
+  806  git log --graph --decorate
+  807  git log --graph --oneline --decorate
+  808  exit
+  809  cd /
+  810  cd mnt/e
+  811  ls
+  812  cd ~
+  813  ls
+  814  cd Repositories/
+  815  ls
+  816  cd ..
+  817  ls
+  818  ls -la
+  819  touch HA.sh
+  820  vim HA.sh
+  821  cat HA.sh
+  822  chmod +x HA.sh
+  823  HA.sh
+  824  ./HA.sh
+  825  vim HA.sh
+  826  ./HA.sh
+  827  cat HA.sh
+  828  cd /
+  829  ls
+  830  cd /mnt/e/'IT Career Hub'/'Meine Hausaufgaben'/
+  831  ls
+  832  ls "/mnt/e/IT Career Hub/Meine Hausaufgaben/"
+  833  cd~
+  834  cd ~
+  835  vim HA.sh
+  836  cat HA.sh
+  837  ./HA.sh
+  838  vim HA.sh 
+  839  ./HA.sh
+  840  vim HA.sh 
+  841  ./HA.sh
+  842  source HA.sh
+  843  cd ~
+  844  ./HA.sh
+  845  vim HA.sh 
+  846  . HA.sh
+  847  git add --all
+  848  git commit -m "Add HTML, CSS, JavaScript 49.2"
+  849  git push
+  850  exit
+  851  ls
+  852  cd Repositories/
+  853  ls
+  854  ls -la
+  855  git clone https://github.com/Volodymyr-2024/my-repo
+  856  ls
+  857  ls -ls
+  858  cd my-repo
+  859  git checkout -b feature
+  860  ls
+  861  ls -la
+  862  vim .gitignore 
+  863  vim README.md
+  864  ls 
+  865  ls -la
+  866  git add --all
+  867  git commit -m "Add README.md and update .gitignore"
+  868  git push origin feature
+  869  git remote set-url origin git@github.com:Volodymyr-2024/my-repo.git
+  870  git push origin feature
+  871  git commit -m "Add README.md and update .gitignore - amended"
+  872  git push --force-with-lease
+  873  git checkout main
+  874  git merge feature
+  875  git push origin main
+  876  history > history.txt
